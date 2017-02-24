@@ -1,0 +1,45 @@
+{
+  "name": "ufut",
+  "version": "0.0.0",
+  "private": true,
+  "description": "uFut WebApp",
+  "license":"MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ufut/ufut.git"
+  },
+  "devDependencies": {
+    "mocha": "",
+    "gulp": "",
+    "gulp-mocha": "",
+    "assert": "",
+    "superagent": ""
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test/*.js",
+    "watch": "gulp watch",
+    "prestart": "npm install",
+    "fast-start": "node index.js",
+    "startdb": "mongod -dbpath /home/ufut/mongodb --port 27357"
+  },
+  "dependencies": {
+    "passport": "",
+    "passport-facebook": "",
+    "passport-google-oauth": "",
+    "passport-twitter": "",
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "ejs": "~2.5.5",
+    "express": "~4.14.1",
+    "morgan": "~1.7.0",
+    "node-sass-middleware": "0.9.8",
+    "serve-favicon": "~2.3.2",
+    "mongoose": "",
+    "express-session": "",
+    "http-status": "",
+    "wagner-core": "",
+    "underscore": ""
+  }
+}
